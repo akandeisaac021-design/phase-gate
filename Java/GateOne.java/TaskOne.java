@@ -6,9 +6,9 @@ public class TaskOne{
 
     Scanner scanner =new Scanner(System.in);
 
-    System.out.println("Enter your name: ");
+    System.out.print("Enter your name: ");
     String name =scanner.nextLine();
 
-    System.out.println("Your name is -->" + name);
+    System.out.println("Welcome to phase gate " + name);
     }
 }
