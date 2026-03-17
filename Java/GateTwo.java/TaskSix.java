@@ -7,14 +7,14 @@ public class TaskSix{
 
     System.out.print("Enter a number -->");
     int userInput =scanner.nextInt();
-
+    int sumOfNumbers = 0;
 
         for(int number =1; number <=userInput; number++){
             System.out.println(number);
-            userInput +=number;
+            sumOfNumbers +=number;
 
         }
-    int sumOfNumbers =userInput;
+   
 
     System.out.println("The sum Of Numbers is -->" + sumOfNumbers);
     }

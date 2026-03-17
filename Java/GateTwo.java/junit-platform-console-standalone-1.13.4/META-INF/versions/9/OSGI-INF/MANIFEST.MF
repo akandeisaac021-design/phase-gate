@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Import-Package: kotlin;resolution:=optional,kotlin.collections;resolut
+ ion:=optional,kotlin.jvm.functions;resolution:=optional,kotlin.jvm.in
+ ternal;resolution:=optional,javax.xml.namespace,javax.xml.parsers,jav
+ ax.xml.stream,javax.xml.transform,javax.xml.transform.dom,javax.xml.t
+ ransform.stax,org.w3c.dom
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=9))"
+

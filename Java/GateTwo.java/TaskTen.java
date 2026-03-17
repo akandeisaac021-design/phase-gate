@@ -1,15 +1,11 @@
-import java.util.Scanner;
+public class TaskTen{
+    public static void main (String [] args){
 
-public class TaskNine{
-    public static void main (String []args){
+    String number ="09876";
 
-    Scanner scanner =new Scanner(System.in);
+    int length =number.length(); 
 
-    System.out.print("Enter a number -->");
-    int number =scanner.nextInt();
-    String length =(String)(number.length());
+    System.out.print(length);
 
-    System.out.print(length);    
-        
     }
 }
