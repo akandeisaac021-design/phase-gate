@@ -1,9 +1,9 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Test.Assertions.assertEquals;
-import static org.junit.jupiter.api.Test.Assertions.assertTrue;
-import static org.junit.jupiter.api.Test.Assertions.assertFalse;
-import static org.junit.jupiter.api.Test.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class TaskOneTest{
 
@@ -49,7 +49,7 @@ public class TaskOneTest{
 
     int newArrayLength =5;
 
-    int actual =TaskOne.newArrayFunctions(arrayOfNumbers, newArrayLength);
+    int [] actual =TaskOne.newArrayFunctions(arrayOfNumbers, newArrayLength);
 
     int [] expected ={1, 21, 3, 32, 54};
 
