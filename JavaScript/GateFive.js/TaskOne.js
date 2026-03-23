@@ -18,21 +18,24 @@ console.log("Answer the following questions");
 
 for(let questionCounter =1; questionCounter <11; questionCounter++){
 
-    let firstNumber =Math.floor(Math.random(41)+41);
-    let secondNumber =Math.floor(Math.random(41));
+    let firstNumber =Math.floor(Math.random()*(1 - 41 +1)+41);
+    let secondNumber =Math.floor(Math.random()*(1 - 41 +1));
 
     console.log(firstNumber + " - " + secondNumber + "-->");
-    let result =20;
+    let result =41;
 
     if (result !=(firstNumber - secondNumber)){
         console.log(firstNumber + " - " + secondNumber + "-->");
-        result =20;
+        result +=20;
+
         if (result ==(firstNumber - secondNumber)){
                 userScore++;
             } 
-    }
-    else{
+
+    }else{
         userScore++;
+
     } 
+
 } 
 console.log("Your score final score is -->" + userScore + " out of ten");

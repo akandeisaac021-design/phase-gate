@@ -25,7 +25,7 @@ public class TaskOne{
         Random random =new Random();
 
         int userScore =0;
-        System.out.print("Answer the following questions");
+        System.out.println("Attempt the following questions");
 
         for(int questionCounter =1; questionCounter <11; questionCounter++){
 
