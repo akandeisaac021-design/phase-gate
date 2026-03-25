@@ -38,10 +38,12 @@ public class TaskOne{
             if (result !=(firstNumber - secondNumber)){
                 System.out.print(firstNumber + " - " + secondNumber + "-->");
                 result =scanner.nextInt();
+
                 if (result ==(firstNumber - secondNumber)){
                         userScore++;
-                    } 
+                } 
             }
+
             else{
                 userScore++;
             } 
