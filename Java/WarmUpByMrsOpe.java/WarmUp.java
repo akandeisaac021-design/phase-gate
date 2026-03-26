@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class WarmUp {
 
-    public static int [] removeDuplicateNumbersFromAnArray(int [] numbers){
+    public static ArrayList<> removeDuplicateNumbersFromAnArray(int [] numbers){
 
         ArrayList <Integer> nonDuplicateNumbers =new ArrayList<>();
         
