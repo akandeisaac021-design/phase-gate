@@ -9,8 +9,9 @@ class task_one_test(TestCase):
         collection_of_phone_numbers =[]
 
         actual =function_to_add_phone_number(collection_of_phone_numbers,"070")
-        print(function_to_add_phone_number(collection_of_phone_numbers,"070"))
+ 
         expected =["070"]
+        print(collection_of_phone_numbers)
 
         self.assertEqual(actual, expected)
 
@@ -25,3 +26,4 @@ class task_one_test(TestCase):
 
         self.assertEqual(actual, expected)        
         
+    
